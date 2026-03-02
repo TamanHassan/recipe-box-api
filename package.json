@@ -1,15 +1,16 @@
 {
-  "name": "-recipe-box-api",
+  "name": "recipe-box-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Digital Recipe Box REST API",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
   },
